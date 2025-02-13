@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.icon {
+    color: pink;
+}
+
+/* Estilização do header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+nav {
+    position: relative;
+}
+
+.menu i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: #444;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu:hover .menu-dropdown {
+    display: block;
+}
+
+.menu-dropdown li {
+    padding: 10px;
+}
+
+.menu-dropdown a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilização da seção "Sobre Mim" */
+.sobreMim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.sobreMim img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.tecnologias {
+    margin-top: 15px;
+}
+
+.tecnologias i {
+    font-size: 30px;
+    margin: 5px;
+    color: #333;
+}
+
+/* Estilização do portfolio*/
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.portfolio_frame {
+    width: 70vw;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+.portfolio_frame_title {
+    display: flex;
+    margin: 0.5em 2em;
+    justify-content: space-between;
+}
+
+
+
+/* Estilização do footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
