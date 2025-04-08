@@ -1,0 +1,38 @@
+@import url(../styles/variables.css);
+
+main {
+    margin: 4em auto;
+}
+
+section {
+    margin: 1em auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section_title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.experiencia_card {
+    margin-bottom: 1.5em;
+}
+
+.experiencia_head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.experiencia_date {
+    font-weight: bold;
+}
+
+.experiencia_cargo {
+    list-style-type: square;
+    margin-bottom: 0.5em;
+}

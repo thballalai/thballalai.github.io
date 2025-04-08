@@ -1,84 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago Ballalai - Portfolio</title>
-    <link rel="stylesheet" href="./src/styles/stylesheet.css">
-    <!-- Importação dos ícones a partir do font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Portfólio de Thiago Ballalai - Analista de Testes com foco em qualidade de software, testes manuais e automação.">
+
+    <title>Meu Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/style_index.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    
 </head>
 <body>
-    <header>
-        <a href="index.html"><h1>thiago ballalai</h1></a>
-        <nav>
-            <div class="menu">
-                <i class="fas fa-bars icon"></i>
-                <ul class="menu-dropdown">
-                    <li><a href="./pages/portfolio.html">Portfolio</a></li>
-                    <li><a href="./pages/curriculo.html">Currículo</a></li>
-                    <li><a href="https://www.linkedin.com/in/thiago-ballalai/" target="_blank">
-                        <i class="fab fa-linkedin icon"></i></a></li>
-                    <li><a href="https://github.com/thballalai" target="_blank">
-                        <i class="fab fa-github icon"></i></a></li>
-                </ul>
-            </div>
+    <header id="top" class="header">
+        <nav class="header_nav">
+            <ul class="header_nav_list">
+                <li class="header_nav_list_item"><a href="index.html">Home</a></li>
+                <li class="header_nav_list_item"><a href="https://github.com/thballalai?tab=repositories" target="_blank">Projetos</a></li>
+                <li class="header_nav_list_item"><a href="./pages/curriculo.html">Currículo</a></li>
+            </ul>
         </nav>
     </header>
+
     <main>
-        <section class="sobreMim">
-            <div>
-                <img src="./src/assets/img/foto-perfil.jpg" alt="Foto de perfil">
-            </div>
-            <div>
-                <h2>Analista de Teste</h2>
-                <p>Engenheiro civil em transição de carreira para a área de Quality Assurance. Conciliando sólidos conhecimentos lógicos e de gestão adquiridos durante a minha carreira como engenheiro, e os conhecimentos adquiridos através do extenso estudo sobre garantia de qualidade, venho buscando fornecer análises de qualidade do software que sejam pertinentes as empresas.</p>
-                <div class="tecnologias">
-                    <h3>Habilidades em:</h3>
-                    <i class="fab fa-html5 icon"></i>
-                    <i class="fab fa-css3-alt icon"></i>
-                    <i class="fab fa-js icon"></i>
-                    <i class="fas fa-database icon"></i> <!-- Representando SQL -->
-                    <i class="fab fa-git-alt icon"></i>
+        <section class="perfil_container">
+            <div class="perfil_resume">
+                <div class="perfil_resume_left">
+                    <img class="perfil_resume_picture" src="./assets/img/1693583655378.jpg" alt="Foto de perfil">
                 </div>
+                <div class="perfil_resume_right">
+                    <h1 class="perfil_resume_right_title">Thiago Ballalai</h1>
+                    <h2 class="perfil_resume_right_text_title">Analista de Teste</h2>
+                    <p class="perfil_resume_right_text_text">Sou um profissional em transição de carreira da engenharia civil para a área de tecnologia, com foco em Qualidade de Software. Tenho experiência em testes manuais e automatizados, conhecimento em ferramentas modernas e paixão por aprender coisas novas todos os dias.
+                    </p>
+                </div>
+            </div>
+            
+              
+            <hr>
+            <div class="perfil_badges">
+                <img alt="Ballalai-Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">&nbsp;
+                <img alt="Ballalai-HTML" src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                <img alt="Ballalai-CSS" src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+                <img alt="Ballalai-JavaScript" src="https://img.shields.io/badge/javascript-FFD700?style=for-the-badge&logo=javascript&logoColor=white">&nbsp;
+                <img alt="Ballalai-Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">&nbsp;
+                <img alt="Ballalai-SQL" src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white">&nbsp;
+                <img alt="Ballalai-Selenium" src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">&nbsp;
+                <img alt="Ballalai-JUnit" src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white">&nbsp;
+                <img alt="Ballalai-Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;
+                <img alt="Ballalai-GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">&nbsp;
+                <img alt="Ballalai-JIRA" src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white">&nbsp;
+                <img alt="Ballalai-Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white">&nbsp;
+                <img alt="Ballalai-CodeceptJS" src="https://img.shields.io/badge/CodeceptJS-EF4944?style=for-the-badge&logo=codeceptjs&logoColor=white">&nbsp;
+                <img alt="Ballalai-Qase" src="https://img.shields.io/badge/Qase.io-0172CB?style=for-the-badge">&nbsp;
+                <img alt="Ballalai-NodeJS" src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">&nbsp;
+                <img alt="Ballalai-React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">&nbsp;
+                <img alt="Ballalai-Cypress" src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white">&nbsp;
+            </div>
+            <hr>
+        </section>
+
+        <section class="projetos_container">
+            <h2 class="projetos_title">Principais Projetos</h2>
+            <div class="projetos_content">
+                <div class="projetos_card">
+                    <a href="https://github.com/thballalai/DIO-Cypress" target="_blank">
+                        <h3 class="projetos_name">DIO-Cypress</h3>
+                    <p class="projetos_description">Repositório com os códigos utilizados para testar uma aplicação web com biblioteca react utilizando Cypress.</p>
+                    <div class="projetos_tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Cypress</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                    </a>
+                </div>
+                <div class="projetos_card">
+                    <a href="https://github.com/thballalai/CursoEmVideo-JavaPOO" target="_blank">
+                        <h3 class="projetos_name">CursoEmVideo-JavaPOO</h3>
+                    
+                    <p class="projetos_description">Repositório com os códigos praticado na aula de java com foco em POO do canal do youtube Curso Em Video</p>
+                    <div class="projetos_tags">
+                        <span class="tag">Java</span>
+                    </div>
+                    </a>
+                </div>
+                <div class="projetos_card">
+                    <a href="https://github.com/thballalai/introducao-a-automacao" target="_blank">
+                        <h3 class="projetos_name">introducao-a-automacao</h3>
+                    
+                    <p class="projetos_description">Repositório com os códigos utilizados para testar uma aplicação web utilizando playwright.</p>
+                    <div class="projetos_tags">
+                        <span class="tag">Javascript</span>
+                        <span class="tag">Playwright</span>
+                    </div>
+                    </a>
+                </div>
+
             </div>
         </section>
-        <section class="portfolio">
-            <h2 class="portfolio_title">Principais Projetos</h2>
-            <div class="portfolio_frame">
-                <div class="portfolio_frame_title">
-                    <h3>Titulo</h3>
-                    <i class="fab fa-js icon"></i>
-                </div>
-                <div class="portfolio_frame_content">
-                    <p>breve descrição</p>
-                    <a href="">Veja mais</a>
-                </div>
-            </div>
-            <div class="portfolio_frame">
-                <div class="portfolio_frame_title">
-                    <h3>Titulo</h3>
-                    <i class="fab fa-js icon"></i>
-                </div>
-                <div class="portfolio_frame_content">
-                    <p>breve descrição</p>
-                    <a href="">Veja mais</a>
-                </div>
-            </div>
-            <div class="portfolio_frame">
-                <div class="portfolio_frame_title">
-                    <h3>Titulo</h3>
-                    <i class="fab fa-js icon"></i>
-                </div>
-                <div class="portfolio_frame_content">
-                    <p>breve descrição</p>
-                    <a href="">Veja mais</a>
-                </div>
-            </div>
-        </section>
+
     </main>
+
     <footer>
-        <p>Desenvolvido por Thiago Ballalai</p>
+        <div class="footer_container">
+            <div class="footer_container_left">
+                <h3>Aonde me encontrar:</h3>
+                <div class="footer_redes_sociais">
+                    <a href="https://www.linkedin.com/in/thiago-ballalai/" target="_blank" title="LinkedIn">
+                        <img class="footer_redes_sociais_icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/thballalai" target="_blank" title="GitHub">
+                        <img class="footer_redes_sociais_icon" src="https://img.icons8.com/ios-glyphs/24/ffffff/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://wa.me/5571993165925" target="_blank" title="WhatsApp">
+                        <img class="footer_redes_sociais_icon" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+                    </a>                      
+                    <a href="mailto:thballalai@gmail.com" target="_blank" title="E-mail">
+                        <img class="footer_redes_sociais_icon" src="https://img.icons8.com/ios-filled/24/ffffff/new-post.png" alt="E-mail">
+                    </a>
+                </div>
+            </div>
+            <div class="footer_container_right">
+                <a class="footer_container_right_curriculo" href="./assets/files/Curriculo - Analista de Teste - Thiago Ballalai.pdf" target="_blank">Baixar Currículo</a>
+            </div>
+        </div>
+        <div class="footer_disclaimer">
+            <p>&copy; 2025 Thiago Ballalai. Todos os direitos reservados.</p>
+            <p>Vitória da Conquista - BA</p>
+            <p>Feito com HTML5, CSS3 e JavaScript</p>
+            <p><a href="#top">Voltar ao topo</a></p>
+        </div>
     </footer>
 </body>
 </html>

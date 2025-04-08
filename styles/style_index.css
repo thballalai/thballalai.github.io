@@ -1,0 +1,84 @@
+@import url(variables.css);
+
+.perfil_resume {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+}
+
+.perfil_resume_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil_resume_picture {
+    margin: 4em;
+    border-radius: 15%;
+    box-shadow: 5px 5px;
+}
+
+.perfil_resume_right {
+    align-content: center;
+}
+
+.perfil_resume_right_title {
+    text-transform: uppercase;
+}
+
+.perfil_resume_right_text_title {
+    margin: 1em 0;
+}
+
+.perfil_resume_right_text_text {
+    font-size: 1.2em;
+}
+
+.perfil_badges {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.projetos_container {
+    margin-bottom: 5em;
+}
+
+.projetos_title {
+    text-transform: uppercase;
+    margin: 1.5em 1em 1em 1em;
+    text-align: center;
+}
+
+.projetos_card {
+    margin: 1.5em;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: var(--font-cor);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projetos_card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.projetos_name {
+    font-weight: bold;
+}
+
+.projetos_description {
+    margin: 0.5em 0.5em 1em 0.5em; 
+}
+
+.projetos_tags {
+    margin-left: 0.5em;
+}
+
+.tag {
+    border-radius: 10%;
+    padding: 0.25em;
+    background-color: var(--tag-background-cor);
+}
+
