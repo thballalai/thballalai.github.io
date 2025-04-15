@@ -9,24 +9,26 @@
 ## 🛠 Tecnologias Utilizadas
 
 - **HTML5** – estrutura semântica das páginas
-- **CSS3** – estilos customizados adicionais
 - **Bootstrap** – framework para estilização e responsividade
+- **CSS3** – estilos customizados adicionais
 - **JavaScript** – lógica de interação da página
 - **GitHub API** – utilizada para listar automaticamente os repositórios públicos na seção de projetos
 - **Shields.io** – exibição de selos (badges) com informações dinâmicas, como tecnologias usadas nos projetos
 
 ## 📄 Estrutura do Projeto
 
-thballalai.github.io/ 
-├── lib/
-│      ├── assets/
-│      │      ├── files/
-│      │      └── img/
-│      ├── style/
-│      └── script/
-└── pages/
+- **index.html**: Página inicial com informações sobre mim, habilidades, principais e links de navegação
 
-🛠 Funcionalidades em Destaque
+- **pages/repos.html**: Página com listagem dinâmica de todos os meus repositórios públicos no GitHub
+
+- **pages/cv.html**: Página com meu currículo e experiência profissional
+
+- **lib/**: Contém os arquivos utilizados para criação das páginas
+
+- **readme.md**: Este arquivo com a descrição e documentação do projeto
+
+## 🛠 Funcionalidades em Destaque
+
 🔍 Listagem automática de projetos com GitHub API
 
 📱 Design responsivo com Bootstrap
