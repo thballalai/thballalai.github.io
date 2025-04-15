@@ -2,19 +2,36 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue.svg)](https://thballalai.github.io/)
 
-🚧 **Este site ainda está em construção!** 🚧
-
-Este repositório contém o código-fonte do meu site portfólio, desenvolvido para apresentar meus projetos, habilidades e experiências como Analista de Dados.
-
 ## 🌎 Acesse o site
 
 🔗 [thballalai.github.io](https://thballalai.github.io/)
 
 ## 🛠 Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
+- **HTML5** – estrutura semântica das páginas
+- **CSS3** – estilos customizados adicionais
+- **Bootstrap** – framework para estilização e responsividade
+- **JavaScript** – lógica de interação da página
+- **GitHub API** – utilizada para listar automaticamente os repositórios públicos na seção de projetos
+- **Shields.io** – exibição de selos (badges) com informações dinâmicas, como tecnologias usadas nos projetos
+
+## 📄 Estrutura do Projeto
+
+thballalai.github.io/ 
+├── lib/
+│      ├── assets/
+│      │      ├── files/
+│      │      └── img/
+│      ├── style/
+│      └── script/
+└── pages/
+
+🛠 Funcionalidades em Destaque
+🔍 Listagem automática de projetos com GitHub API
+
+📱 Design responsivo com Bootstrap
+
+🏷️ Badges informativos com Shields.io
 
 ## 📢 Contribuição
 
