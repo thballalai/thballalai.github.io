@@ -2,11 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.footer `
     text-align: center;
-    bottom: 0;
-    position: fixed;
-    width: 80%;
     padding-block: 3rem 1.25rem;
     border-top: 1px solid grey;
+    margin-top: 3em;
 `
 
 export const FooterList = styled.ul `

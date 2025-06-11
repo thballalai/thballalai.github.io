@@ -14,7 +14,6 @@ const GlobalStyles = createGlobalStyle `
 
     body {
         padding-inline: 10%;
-        height: 100vh;
     }
 
     a {

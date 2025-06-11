@@ -4,12 +4,7 @@ export const Tab = styled.div `
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding-block: 1rem;
-    position: fixed;
-    bottom: 139px;
-    width: fit-content;
-    left: 50%;
-    transform: translateX(-50%);
+    padding-block: 1.5rem;
 `
 
 export const TabButton = styled.button `
