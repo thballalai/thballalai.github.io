@@ -35,16 +35,15 @@ const Home = () => {
 
   return (
     <Container>
-      <div>
-        {renderContent()}
-      </div>
-
       <TabBar
         activeTab={activeTab}
         onTabChange={setActiveTab}
         tabs={tabsData}
       />
 
+      <div>
+        {renderContent()}
+      </div>
     </Container>
   );
 };
