@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div `
     text-align: center;
+    padding-block: 1rem;
 `
 
 export const Pessoal = styled.div `
@@ -24,12 +25,6 @@ export const TitleName = styled.h2 `
 export const TitleJob = styled.span `
     padding-block: 0.5rem; 
 `
-
-
-
-
-
-
 
 export const Resume = styled.div `
 `

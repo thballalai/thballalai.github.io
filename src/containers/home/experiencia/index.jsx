@@ -7,7 +7,6 @@ import {
     ExperienciaItemLeft,
     ExperienciaItemRight,
     ExperienciaJob,
-    ExperienciaSmallBar,
     Title
 } from "./styles"
 
@@ -30,7 +29,6 @@ function Experiencia(){
             {/* Experiências antigas */}
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaSmallBar src="src\assets\vertical-line-small.svg"></ExperienciaSmallBar>
                     <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
                     <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
                 </ExperienciaItemLeft>
@@ -42,7 +40,6 @@ function Experiencia(){
 
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaSmallBar src="src\assets\vertical-line-small.svg"></ExperienciaSmallBar>
                     <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
                     <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
                 </ExperienciaItemLeft>
@@ -54,7 +51,6 @@ function Experiencia(){
 
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaSmallBar src="src\assets\vertical-line-small.svg"></ExperienciaSmallBar>
                     <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
                     <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
                 </ExperienciaItemLeft>
@@ -66,7 +62,6 @@ function Experiencia(){
             {/* Experiência mais antiga de todas */}
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaSmallBar src="src\assets\vertical-line-small.svg"></ExperienciaSmallBar>
                     <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
                 </ExperienciaItemLeft>
                 <ExperienciaItemRight>

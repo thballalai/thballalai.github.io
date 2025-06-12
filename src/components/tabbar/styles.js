@@ -9,9 +9,14 @@ export const Tab = styled.div `
 
 export const TabButton = styled.button `
     text-align: center;
-    background-color: white;
     padding: 0.5rem;
     border: none;
     
     border-bottom: 2px solid gray;
+
+    &.active {
+        background-color: #0077cc;
+        color: #fff;
+        font-weight: bold;
+    }
 `

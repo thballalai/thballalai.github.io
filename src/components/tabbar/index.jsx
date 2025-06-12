@@ -6,7 +6,7 @@ const TabBar = ({ activeTab, onTabChange, tabs }) => {
     <Tab className="tab-bar">
       {tabs.map((tab) => (
         <TabButton
-          key={tab.id} // É importante ter uma key única para elementos em listas
+          key={tab.id}
           className={activeTab === tab.id ? 'active' : ''}
           onClick={() => onTabChange(tab.id)}
         >

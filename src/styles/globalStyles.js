@@ -6,14 +6,17 @@ const GlobalStyles = createGlobalStyle `
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Manrope", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
+        background-color: ${({ theme }) => theme.colors.bgPrimary};
     }
 
     body {
-        padding-inline: 10%;
+        padding-inline: ${({ theme }) => theme.spacing.globalPadding};
+    }
+
+    a, p, span, h1, h2, h3, h4, button {
+        color: ${({ theme }) => theme.colors.fontDefault};
+        font-family: ${({ theme }) => theme.text.familyDefault};
+        font-weight: ${({ theme }) => theme.text.weightDefault};
     }
 
     a {

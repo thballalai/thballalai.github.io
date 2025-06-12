@@ -6,7 +6,11 @@ export const Container = styled.header `
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
+
+    h1 {
+        font-size: ${({ theme }) => theme.text.h1Size};
+    }
 `
 
 export const Navegacao = styled.nav `
