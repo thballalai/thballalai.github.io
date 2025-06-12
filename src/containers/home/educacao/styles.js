@@ -43,7 +43,7 @@ export const Card = styled.div `
 
     h4 {
         font-weight: bold;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         line-height: 1.5rem; 
     }
 

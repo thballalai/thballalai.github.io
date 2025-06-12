@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tab, TabButton } from './styles';
 
 const TabBar = ({ activeTab, onTabChange, tabs }) => {

@@ -9,14 +9,16 @@ export const Tab = styled.div `
 
 export const TabButton = styled.button `
     text-align: center;
+    font-weight: 400;
+    color: #5C738A;
     padding: 0.5rem;
     border: none;
-    
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #5C738A;
 
     &.active {
-        background-color: #0077cc;
-        color: #fff;
+        color: #0F1417;
+        font-size: 1.1rem;
         font-weight: bold;
+        border-bottom: 3px solid #0F1417;
     }
 `
