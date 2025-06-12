@@ -10,6 +10,9 @@ import {
     Title
 } from "./styles"
 
+import iconHandbag from '../../../assets/handbag-icon.svg';
+import lineBig from '../../../assets/vertical-line-big.svg';
+
 function Experiencia(){
 
     return(
@@ -18,8 +21,8 @@ function Experiencia(){
             {/* Experiência mais Recente */}
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
-                    <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
+                    <ExperienciaIcon src={iconHandbag}></ExperienciaIcon>
+                    <ExperienciaBigBar src={lineBig}></ExperienciaBigBar>
                 </ExperienciaItemLeft>
                 <ExperienciaItemRight>
                     <ExperienciaJob>Voluntário de Analista de Teste</ExperienciaJob>
@@ -29,8 +32,8 @@ function Experiencia(){
             {/* Experiências antigas */}
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
-                    <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
+                    <ExperienciaIcon src={iconHandbag}></ExperienciaIcon>
+                    <ExperienciaBigBar src={lineBig}></ExperienciaBigBar>
                 </ExperienciaItemLeft>
                 <ExperienciaItemRight>
                     <ExperienciaJob>Voluntário de Analista de Teste</ExperienciaJob>
@@ -40,8 +43,8 @@ function Experiencia(){
 
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
-                    <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
+                    <ExperienciaIcon src={iconHandbag}></ExperienciaIcon>
+                    <ExperienciaBigBar src={lineBig}></ExperienciaBigBar>
                 </ExperienciaItemLeft>
                 <ExperienciaItemRight>
                     <ExperienciaJob>Engenheiro de Obra Junior</ExperienciaJob>
@@ -51,8 +54,8 @@ function Experiencia(){
 
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
-                    <ExperienciaBigBar src="src\assets\vertical-line-big.svg"></ExperienciaBigBar>
+                    <ExperienciaIcon src={iconHandbag}></ExperienciaIcon>
+                    <ExperienciaBigBar src={lineBig}></ExperienciaBigBar>
                 </ExperienciaItemLeft>
                 <ExperienciaItemRight>
                     <ExperienciaJob>Estagiário de Engenharia Civil</ExperienciaJob>
@@ -62,7 +65,7 @@ function Experiencia(){
             {/* Experiência mais antiga de todas */}
             <ExperienciaItem>
                 <ExperienciaItemLeft>
-                    <ExperienciaIcon src="src\assets\handbag-icon.svg"></ExperienciaIcon>
+                    <ExperienciaIcon src={iconHandbag}></ExperienciaIcon>
                 </ExperienciaItemLeft>
                 <ExperienciaItemRight>
                     <ExperienciaJob>Estagiário de Engenharia Civil</ExperienciaJob>

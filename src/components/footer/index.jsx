@@ -1,4 +1,12 @@
-import { Container, FooterList, IconRedesSociais, Disclaimer } from "./styles"
+import {
+    Container,
+    FooterList,
+    IconRedesSociais,
+    Disclaimer
+} from "./styles"
+
+import iconLinkedin from '../../assets/linkedin-icon.svg';
+import iconGithub from '../../assets/github-icon.svg';
 
 function Footer(){
 
@@ -7,12 +15,12 @@ function Footer(){
                 <FooterList>
                     <li>
                         <a href="https://www.linkedin.com/in/thiago-ballalai/" target="_blank">
-                            <IconRedesSociais src="src\assets\linkedin-icon.svg" alt="" />
+                            <IconRedesSociais src={iconLinkedin} alt="" />
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/thballalai" target="_blank">
-                            <IconRedesSociais src="src\assets\github-icon.svg" alt="" />
+                            <IconRedesSociais src={iconGithub} alt="" />
                         </a>
                     </li>
                 </FooterList>

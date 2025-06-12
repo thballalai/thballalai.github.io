@@ -18,7 +18,7 @@ function ContactForm() {
         data,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
-      reset(); // Limpa os campos após envio bem-sucedido
+      reset();
     } catch (error) {
       console.error('Erro ao enviar e-mail:', error);
     }

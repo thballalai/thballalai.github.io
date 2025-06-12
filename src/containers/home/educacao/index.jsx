@@ -1,4 +1,12 @@
-import { Card, Coluna, Container, Content } from "./styles"
+import {
+    Card,
+    Coluna,
+    Container,
+    Content
+} from "./styles"
+
+import iconGraduationHat from '../../../assets/graduation-hat.svg';
+import iconCertifiedPaper from '../../../assets/certified-paper.svg';
 
 function Educacao(){
 
@@ -9,21 +17,21 @@ function Educacao(){
                 <Coluna >
                     <h3>Educação</h3>
                     <Card>
-                        <img src="src\assets\graduation-hat.svg" alt="" />
+                        <img src={iconGraduationHat} alt="" />
                         <div>
                             <h4>Pós-Graduação em Gerenciamento de Projeto</h4>
                             <span>EBPÓS | 2023 - 2024</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src="src\assets\graduation-hat.svg" alt="" />
+                        <img src={iconGraduationHat} alt="" />
                         <div>
                             <h4>Pós-Graduação em Engenharia Geotécnica</h4>
                             <span>EBPÓS | 2023 - 2024</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src="src\assets\graduation-hat.svg" alt="" />
+                        <img src={iconGraduationHat} alt="" />
                         <div>
                             <h4>Graduação em Engenharia Civil</h4>
                             <span>UNIFTC | 2016 - 2021</span>
@@ -33,28 +41,28 @@ function Educacao(){
                 <Coluna>
                     <h3>Principais Certificados</h3>
                     <Card>
-                        <img src="src\assets\certified-paper.svg" alt="" />
+                        <img src={iconCertifiedPaper} alt="" />
                         <div>
                             <h4>QA Automation</h4>
                             <span>Qazando | 2025</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src="src\assets\certified-paper.svg" alt="" />
+                        <img src={iconCertifiedPaper} alt="" />
                         <div>
                             <h4>Desenvolvendo aplicação REACT e testando</h4>
                             <span>DIO | 2024</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src="src\assets\certified-paper.svg" alt="" />
+                        <img src={iconCertifiedPaper} alt="" />
                         <div>
                             <h4>Curso Gratuito de Testes de Software</h4>
                             <span>Julio de Lima | 2024</span>
                         </div>
                     </Card>
                     <Card>
-                        <img src="src\assets\certified-paper.svg" alt="" />
+                        <img src={iconCertifiedPaper} alt="" />
                         <div>
                             <h4>Ferramentas de gestão de testes</h4>
                             <span>Qazando | 2025</span>

@@ -10,6 +10,8 @@ import {
     Title
 } from "./styles"
 
+import projetoDevRoom from "../../../assets/project-images/dev-room.png"
+
 function Projetos(){
 
     return(
@@ -18,7 +20,7 @@ function Projetos(){
             <Subtitle>Seleção dos meus principais projetos</Subtitle>
 
             <Card>
-                <CardImage src="src\assets\project-images\dev-room.png"></CardImage>
+                <CardImage src={projetoDevRoom}></CardImage>
                 <CardContent>
                     <div>
                         <CardTitle>Testes automatizados do Dev-Room</CardTitle>

@@ -9,6 +9,9 @@ import {
 
 import { Link } from 'react-router-dom';
 
+import iconLinkedin from '../../assets/linkedin-icon.svg';
+import iconGithub from '../../assets/github-icon.svg';
+
 function Header(){
 
     return(
@@ -30,12 +33,12 @@ function Header(){
                         <NavRedeSocial>
                             <NavItem>
                                 <a href="https://www.linkedin.com/in/thiago-ballalai/" target="_blank">
-                                    <IconRedeSocial src="src\assets\linkedin-icon.svg" alt="" />
+                                    <IconRedeSocial src={iconLinkedin} alt="" />
                                 </a>
                             </NavItem>
                             <NavItem>
                                 <a href="https://github.com/thballalai" target="_blank">
-                                    <IconRedeSocial src="src\assets\github-icon.svg" alt="" />
+                                    <IconRedeSocial src={iconGithub} alt="" />
                                 </a>
                             </NavItem>
                         </NavRedeSocial>
