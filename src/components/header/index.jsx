@@ -4,21 +4,26 @@ import {
     NavList,
     NavItem,
     IconRedeSocial,
-    NavRedeSocial
+    NavRedeSocial,
+    Logo
 } from "./styles"
 
 import { Link } from 'react-router-dom';
 
 import iconLinkedin from '../../assets/linkedin-icon.svg';
 import iconGithub from '../../assets/github-icon.svg';
+import logo from '../../assets/favicon.svg';
 
 function Header(){
 
     return(
         <Container>
-                <a href="/">
+                <Logo href="/">
+                <div>
+                    <img src={logo} alt="" />
                     <h1>Portfolio</h1>
-                </a>
+                </div>
+                </Logo>
                 <Navegacao>
                     <NavList>
                         <NavItem>

@@ -44,3 +44,16 @@ export const IconRedeSocial = styled.img `
     padding: 0.5rem;
     border-radius: 0.5rem;
 `
+
+export const Logo = styled.a `
+    div {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+`
