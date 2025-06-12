@@ -7,23 +7,25 @@ import {
     NavRedeSocial
 } from "./styles"
 
+import { Link } from 'react-router-dom';
+
 function Header(){
 
     return(
         <Container>
-                <a href="">
+                <a href="/">
                     <h1>Portfolio</h1>
                 </a>
                 <Navegacao>
                     <NavList>
                         <NavItem>
-                            <a>Sobre</a>
+                            <Link to="/?tab=sobre">Sobre</Link>
                         </NavItem>
                         <NavItem>
-                            <a>Projetos</a>
+                            <Link to="/?tab=projetos">Projetos</Link>
                         </NavItem>
                         <NavItem>
-                            <a>Contato</a>
+                            <Link to="/contato">Contato</Link>
                         </NavItem>
                         <NavRedeSocial>
                             <NavItem>

@@ -9,12 +9,14 @@ import {
     TextResume
 } from "./styles"
 
+import perfilPicture from "../../../assets/perfil-picture.jpeg";
+
 function Sobre(){
 
     return(
         <Container>
             <Pessoal>
-                <PerfilImg src="src\assets\perfil-picture.jpeg" alt="" />
+                <PerfilImg src={perfilPicture} alt="" />
                 <TitleName>Thiago Ballalai</TitleName>
                 <TitleJob>Analista de Garantia de Qualidade de Software</TitleJob>
                 <p>Profissional de garantia e controle de Qualidade (QA) com experiência, especializado em testes manuais e automatizados de aplicações web e móveis. Possuo paixão por assegurar software de alta qualidade por meio de testagem meticulosa e colaboração.</p>
